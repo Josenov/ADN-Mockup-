@@ -163,10 +163,10 @@ a:hover {
 
 
 body {
-	/* background-image: url("../assets/background.svg");
+	background-image: url("../assets/background.svg");
 	background-repeat: no-repeat;
-	background-size: cover; */
-	background-color: #18191f; 
+	background-size: cover;
+	/* background-color: #18191f;  */
 	min-height: 80vh;
 }
 
