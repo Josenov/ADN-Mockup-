@@ -6,15 +6,13 @@
 
 header {
 	min-height: 10vh;
-	margin-left: 480px;
 	display: flex;
-	height: 60px;
-	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	width: 30%;
-	margin-top: 20px;
-	border-radius: 30px;
+	height: 100%;
+	width: 100%;
+	
+	
 	background: rgba(130, 200, 117, 0.02);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(4.9px);
@@ -26,21 +24,19 @@ header {
 .logo {
 	display: flex;
 	align-items: center;
-	width: 500px;
-	height: 500px;
+	width: 520px;
+	height: 520px;
 	margin-top: -110px;
 	
 }
 
 .parrafo {
 	display: flex;
-	height: 220px;
 	justify-content:flex-end;
-	padding-top: 10px;
 	padding-bottom: 20px;
 	align-items: center;
 	flex-direction: column;
-	width: 64%;
+	width: auto;
 	border-radius: 10px;
 	background: rgba(130, 200, 117, 0.02);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -49,31 +45,32 @@ header {
 	border: 1px solid rgba(250, 250, 250, 0.49);
 	font-family: montserrat;
 	color: white;
-	font-size: 18px;
-	margin-top: -80px;
+	font-size: 20px;
+	
+	
 
 
 }
 
 .parrafos{
 	display:flex;
-	flex-direction: row;
+	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	width: auto;
 	
 
 }
 
 .parrafo-2 {
 	display: flex;
-	height: 450px;
 	margin: 15px;
 	justify-content:flex-end;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	align-items: center;
 	flex-direction: column;
-	width: 20%;
 	border-radius: 10px;
 	background: rgba(130, 200, 117, 0.02);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -89,7 +86,6 @@ header {
 
 .parrafo-3 {
 	display: flex;
-	height: 450px;
 	margin: 15px;
 	justify-content: center;
 	justify-content:flex-end;
@@ -97,7 +93,6 @@ header {
 	padding-bottom: 20px;
 	align-items: center;
 	flex-direction: column;
-	width: 20%;
 	border-radius: 10px;
 	background: rgba(130, 200, 117, 0.02);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -113,15 +108,12 @@ header {
 
 .parrafo-4 {
 	display: flex;
-	height: 450px;
 	margin: 15px;
-	
 	justify-content:flex-end;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	align-items: center;
 	flex-direction: column;
-	width: 20%;
 	border-radius: 10px;
 	background: rgba(130, 200, 117, 0.02);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -136,8 +128,7 @@ header {
 }
 
 .infinity{
-	display: flex;
-	margin-top: 30px;
+	margin-bottom: -30px;
 }
 
 
@@ -167,7 +158,12 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-color: #18191f;  */
-	min-height: 80vh;
+	width: 100%;
+}
+
+main{
+	min-height: 85vh;
+	
 }
 
 .wrapper span {
@@ -280,7 +276,7 @@ body {
 
 
 footer {
-	min-height: 5vh;
+	min-height: 15vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
